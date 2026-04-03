@@ -1,5 +1,7 @@
 import { SectionSubTitle } from "./SectionSubTitle";
 
+const R2_BASE = "https://pub-a54ab4772b6848ba91b35832f5954c93.r2.dev";
+
 const Tappit = () => (
   <div className="max-w-5xl mx-auto space-y-6">
     <SectionSubTitle label="a. Tappit" />
@@ -46,7 +48,7 @@ const Tappit = () => (
             Interaction recording
           </p>
           <video
-            src="/tappit/before/add-wristband-manually.mov"
+            src={`${R2_BASE}/before/add-wristband-manually.mov`}
             autoPlay
             controls
             muted
@@ -186,7 +188,7 @@ const Tappit = () => (
             Interaction recording
           </p>
           <video
-            src="/tappit/after/add-wristband.mov"
+            src={`${R2_BASE}/after/add-wristband.mov`}
             autoPlay
             controls
             muted
