@@ -1,5 +1,5 @@
 import { experiences, type Experience } from "../data/portfolio";
-import { SectionHeading } from "./About";
+import { SectionHeading } from "./SectionHeading";
 
 const Experience = () => (
   <section id="experience" className="py-24 px-6">

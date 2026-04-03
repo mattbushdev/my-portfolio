@@ -1,5 +1,5 @@
 import { personalInfo } from "../data/portfolio";
-import { SectionHeading } from "./About";
+import { SectionHeading } from "./SectionHeading";
 
 const Contact = () => (
   <section id="contact" className="py-24 px-6 bg-paper-alt">

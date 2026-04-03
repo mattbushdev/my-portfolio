@@ -12,6 +12,8 @@ applications I build.
 
 ## Projects
 
+[Tappit](https://mattbush.uk/#projects)
+
 [WhoDish?](https://whodish.co.uk)
 
 [Hyperstocks](https://hyperstocks.app)

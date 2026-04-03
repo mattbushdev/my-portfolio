@@ -1,19 +1,27 @@
 import { projects, type Project } from "../data/portfolio";
-import { SectionHeading } from "./About";
+import { SectionHeading } from "./SectionHeading";
+import { SectionSubTitle } from "./SectionSubTitle";
+import Tappit from "./Tappit";
 
 const Projects = () => (
   <section id="projects" className="py-24 px-6">
-    <div className="max-w-5xl mx-auto">
+    <div className="max-w-5xl mx-auto space-y-12">
       <SectionHeading label="04. Projects" />
       <p className="text-stone-400 mt-4 mb-12 text-sm">
-        A selection of things I have built — personal projects, side
-        experiments, and production systems.
+        A selection of things I have built including professional and personal
+        projects.
       </p>
 
-      <div className="grid md:grid-cols-2 gap-6">
-        {projects.map((project) => (
-          <ProjectCard key={project.title} project={project} />
-        ))}
+      <Tappit />
+
+      <div className="max-w-5xl mx-auto space-y-6">
+        <SectionSubTitle label="b. Personal" />
+
+        <div className="grid md:grid-cols-2 gap-6">
+          {projects.map((project) => (
+            <ProjectCard key={project.title} project={project} />
+          ))}
+        </div>
       </div>
     </div>
   </section>

@@ -1,5 +1,5 @@
 import { skillGroups } from "../data/portfolio";
-import { SectionHeading } from "./About";
+import { SectionHeading } from "./SectionHeading";
 
 const Skills = () => (
   <section id="skills" className="py-24 px-6 bg-white">
